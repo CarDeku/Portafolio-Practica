@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/skillset.css">
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Carlos Urtubia | Protafolio web</title>
+</head>
+
+<body>
+    <!-- Start of header -->
+    <header class="hero">
+        <img src="assets/img/logos/large.png" alt="" class="hero__logo circle">
+        <h1 class="hero__title">Carlos Urtubia Guzmán</h1>
+        <hr>
+        <h2 class="hero__subtitle">Web Designer</h2>
+        <video autoplay loop muted class="hero__video">
+            <source src="assets/video/hero.mp4">
+        </video>
+    </header>
+    <!-- End of header -->
+
+    <!-- Star of navar -->
+    <nav  id="navbar">
+        <div>
+            <a href="/">
+                <img src="assets/img/logos/small.png" alt="logo" class="navbar__logo circle">
+                <span class="navbar-name">Carlos Urtubia Guzmán&nbsp;</span> <span>Web Designer </span>
+            </a>
+            <button class="navar__hamburger" id="hamburger">☰</button>
+        </div>
+
+        <ul class="navar__list">
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#skillset">Tecnologías</a></li>
+            <li><a href="#expericence">Experiencia</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- End of navar -->
+
+    <!-- Main container -->
+    <main class="main">
+        <!-- Start portfolio section -->
+        <section  id="portfolio">
+            <h3 >Portafolio</h3>
+            <hr>
+            <div>
+                <a href="">
+                    <button>
+                        <img src="assets/img/portfolio/1.png" alt="proyecto">
+                        <h4>lorem ipsum dolor sit amet</h4>
+                    </button>
+                </a>
+                <a target="_blank" href="https://cardeku.github.io/Calculadora/">
+                    <button>
+                        <img src="assets/img/portfolio/calc.jpg" alt="proyecto">
+                        <h4 class="portfolio__btn__description3">Calculadora básica con HTML CSS y Javascript</h4>
+                    </button>
+                </a>
+                <a href="https://cardeku.github.io/Memorice/" target="_blank">
+                    <button>
+                        <img src= "assets/img/portfolio/memorice.jpg" alt="proyecto">
+                        <h4>lorem ipsum dolor sit amet</h4>
+                    </button>
+                </a>
+            </div>
+        </section>
+        <!-- End portfolio section -->
+
+        <!-- start skillset section -->
+        <section id="skillset" class="even">
+            <h3>Tecnologías</h3>
+            <hr>
+            <div>
+                <div class="skill__html">
+                    <img src="assets/img/skillset/html-5 .png" alt="html5">
+                    <span class="tooltip">HTML</span>
+                </div>
+                <div class="skill__css">
+                    <img src="assets/img/skillset/css-3.png" alt="css">
+                    <span class="tooltip">CSS</span>
+                </div>
+                <div class="skill__js">
+                    <img src="assets/img/skillset/js.png" alt="Javascript">
+                    <span class="tooltip">Javascript</span>
+                </div>
+                <div class="skill__git">
+                    <img src="assets/img/skillset/git.png" alt="git">
+                    <span class="tooltip">Git</span>
+                </div>
+                <div class="skill__github">
+                    <img src="assets/img/skillset/github.png" alt="github">
+                    <span class="tooltip">GitHub</span>
+                </div>
+            </div>
+        </section>
+        <!-- End skillset section -->
+
+        <section id="expericence">
+            <h3 class="experience__title">Experiencia</h3>
+            <hr>
+            <div>
+                <img src="assets/img/experience/sgs.png" alt="">
+                <h4>SGS</h4>
+            </div>
+            <div>
+                <img src="assets/img/experience/berliam.jpg" alt="">
+                <h4>Berliam</h4>
+            </div>
+            <div>
+                <img src="assets/img/experience/cyg.png" alt="">
+                <h4>Grupo C&G </h4>
+            </div>
+            <div>
+                <img src="assets/img/experience/kdm.jpeg" alt="">
+                <h4>KDM Industrial</h4>
+            </div>
+        </section>
+
+        <!-- Start contact section -->
+        <section class="contact" id="contact">
+            <h3 class="contact__title">Contacto</h3>
+            <hr>
+            <!-- form -->
+            <form action="https://formspree.io/f/xnqweovw" method="POST">
+                <label>
+                    Your email:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+            </form>
+
+            <nav class="social" id="social-media">
+                <a href="https://www.linkedin.com/in/carlos-urtubia-guzm%C3%A1n-3940151ab/" target="_blank">
+                    <img id="linkedin" src="assets/img/social/linkedin.png" alt="linkedin">
+                </a>
+                <a href="https://github.com/CarDeku" target="_blak">
+                    <img id="github" src="assets/img/social/github.png" alt="linkedin">
+                </a>
+            </nav>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <small>Desarrollado por Carlos Urtubia. &copy;2022</small>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/fixed.js"></script>
+</body>
+
+</html>
