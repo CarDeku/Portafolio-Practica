@@ -9,7 +9,7 @@
 
         function updatePos() {
             windowPos = window.scrollY;
-            console.log(windowPos);
+    
         }
 
         function onScroll() {
